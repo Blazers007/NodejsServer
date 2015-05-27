@@ -17,7 +17,8 @@ router.post('/login', function(req, res, next) {
     }
     /* Check */
     if (req.body.username === user.username && req.body.password === user.password) {
-        res.redirect('/home');
+        /* Must return or code will go on and make error! */
+        return res.redirect('/home');
     }
     res.redirect("/login");
 });
