@@ -6,44 +6,4 @@
     <div id="data"></div>
     <p><a href="/login" class="btn btn-primary btn-lg" role="button">Login In Now!</a></p>
 </div>
-
-<script type="text/javascript" src="javascripts/bmobSocketIO.js"></script>
-<script type="text/javascript">
-    /* Test Bmob */
-    //调用Bmob模块
-    // var Bmob = require("bmob").Bmob;
-    // //初始化，第一个参数是Application_id，第二个参数是REST API Key
-    // Bmob.initialize("f0d74dc5fda96aa9becdbd2a0875225c", "d9c4567879453b95bb2b948a801e5691";
-
-    // //添加一行数据
-    // var GameScore = Bmob.Object.extend("GameScore");
-    // var gameScore = new GameScore();
-    // gameScore.set("score", 1337);
-    // gameScore.save(null, {
-    //     success: function(object) {
-    //         console.log("create object success, object id:"+object.id);
-    //     },
-    //     error: function(model, error) {
-    //         console.log("create object fail");
-    //     }
-    // });
-    /* Init BmobSocketIO */
-     BmobSocketIo.initialize("e9978deb922a3ee549d8ca3266edff09");
-   //初始连接socket.io服务器后，需要监听的事件都写在这个函数内
-    BmobSocketIo.onInitListen = function() {
-      //订阅GameScore表的数据更新事件
-      BmobSocketIo.updateTable("Chat");     
-    };
-
-      //监听服务器返回的更新表的数据
-   BmobSocketIo.onUpdateTable = function(tablename,data) {   
-     if( tablename=="Chat" ) {
-        var content=$("#data");
-        var p = '<p><span style="color:red;">' + data.name+'</span>  '+'<span style="color:green;">'+ data.createdAt+'</span>  '+ ' :<br/> '+data.content+'</p><br/><br/>';
-        content.html(content.html()+p);
-     }
-   };
-
-</script>
-
 <% include footer.ejs %>

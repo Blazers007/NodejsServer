@@ -1,5 +1,5 @@
 {
-  "name": "nodejs-demo",
+  "name": "NodejsServer",
   "version": "0.0.0",
   "private": true,
   "scripts": {

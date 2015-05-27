@@ -9,11 +9,11 @@ var routes = require('./routes/index');
 var users = require('./routes/users');
 
 /* Mongoose DB */
-var SessionStore = require("session-mongoose")(express);
-var store = new SessionStore({
-  url : "mongodb://localhost/session",
-  interval : 120000
-});
+// var SessionStore = require("session-mongoose")(express);
+// var store = new SessionStore({
+//   url : "mongodb://localhost/session",
+//   interval : 120000
+// });
 
 var app = express();
 
