@@ -1,7 +1,47 @@
  <!-- Footer Scripts -->
-    <script src="/javascripts/movie.js"></script>
-    <script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <script src="http://cdn.bootcss.com/jquery/2.1.4/jquery.min.js"></script>
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <script src="http://cdn.bootcss.com/jquery-json/2.5.1/jquery.json.min.js"></script>
+    <!-- Material Design -->
+    <script src="http://cdn.bootcss.com/bootstrap-material-design/0.3.0/js/material.min.js"></script>
+    <script src="http://cdn.bootcss.com/bootstrap-material-design/0.3.0/js/ripples.min.js"></script>
+    <!-- Socket IO -->
+    <script type="text/javascript" src="/javascripts/bmobSocketIO.js"></script>
+    <script type="text/javascript">
+        //  init material bootstrap
+        $.material.init();
+
+        //  Template
+        //  Bind send event
+        $("#send").click(function(){
+            alert(html);
+        });
+        // Init SocketIO
+        BmobSocketIo.initialize("f0d74dc5fda96aa9becdbd2a0875225c");
+        // Update table by login doctor id
+        BmobSocketIo.updateTable("PatientChat1");
+        // Callbacks
+         BmobSocketIo.onUpdateTable = function(tablename,data) {    
+            // Check Table Name
+            // Check Data type
+            // alert(tablename);
+            var ul = $("#chat-list");
+            var message;
+            switch (data.msgType) {
+                case 1:
+                //  plain text message
+                message = data;
+                break;
+                case 2:
+                //  image text
+                break;
+                case 3:
+                //  other
+                break;
+            }
+            //  Insert data
+            ul.html(ul.html() + "message");
+        };
+    </script>
   </body>
 </html>

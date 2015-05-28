@@ -3,6 +3,22 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
+li{
+    list-style: none;
+}
+
 a {
   color: #00B7FF;
+}
+
+#message-tags{
+    margin-top: 80px;
+}
+
+.chat{
+    width: 80%;
+}
+
+#message-edit{
+    height: 80px;
 }
