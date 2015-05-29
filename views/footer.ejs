@@ -7,61 +7,12 @@
     <script src="http://cdn.bootcss.com/bootstrap-material-design/0.3.0/js/ripples.min.js"></script>
     <!-- Socket IO -->
     <script type="text/javascript" src="/javascripts/bmobSocketIO.js"></script>
-    <script src="http://static.bmob.cn/bmob-min.js"></script>
+    <script type="text/javascript"  src="http://static.bmob.cn/bmob-min.js"></script>
+    <script type="text/javascript" src="/javascripts/ejs.min.js"></script>
+    <script src="/javascripts/chat.js"></script>
     <script type="text/javascript">
         //  init material bootstrap
         $.material.init();
-
-        //  Template
-        Bmob.initialize("f0d74dc5fda96aa9becdbd2a0875225c", "d9c4567879453b95bb2b948a801e5691");
-        //  Bind send event
-        $("#send").click(function(){
-            var content = $("#text-area").val();
-            $("#text-area").val("");
-            var ChatModel = Bmob.Object.extend("ChatModel");
-            var chat = new ChatModel();
-            chat.set("type", -1);
-            chat.set("content", content);
-            chat.set("toId", "1");
-            chat.set("fromId", "患者");
-            chat.set("date", "2015年05月28日22:21:09");
-            chat.save(null, {
-                success: function(gameScore) {
-                    // 添加成功，返回成功之后的objectId（注意：返回的属性名字是id，不是objectId），你还可以在Bmob的Web管理后台看到对应的数据
-                    alert('添加数据成功，返回的objectId是：' + gameScore.id);
-                },
-                error: function(gameScore, error) {
-                    // 添加失败
-                    alert('添加数据失败，返回错误信息：' + error.description);
-                }
-            });
-        });
-        // Init SocketIO
-        BmobSocketIo.initialize("f0d74dc5fda96aa9becdbd2a0875225c");
-        // Update table by login doctor id
-        BmobSocketIo.updateTable("ChatModel");
-        // Callbacks
-         BmobSocketIo.onUpdateTable = function(tablename,data) {    
-            // Check Table Name
-            // Check Data type
-            // alert(tablename);
-            var ul = $("#chat-list");
-            var message = "";
-            switch (data.type) {
-                case 1:
-                //  plain text message
-                message = data.content;
-                break;
-                case 2:
-                message = "<img src='" + data.content + "' />"
-                break;
-                case 3:
-                //  other
-                break;
-            }
-            //  Insert data
-             ul.html(ul.html() + message);
-        };
     </script>
   </body>
 </html>
