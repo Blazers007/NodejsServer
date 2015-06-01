@@ -7,6 +7,7 @@ var bodyParser = require('body-parser');
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
+var test = require('./routes/test');
 
 // 创建Express实例
 var app = express();
@@ -29,6 +30,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 // 匹配路径和路由
 app.use('/', routes);
 app.use('/users', users);
+app.use('/dev', test);
 app.use("/admin", require('./routes/admin'));
 
 // catch 404 and forward to error handler
