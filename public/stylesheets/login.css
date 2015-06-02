@@ -1,0 +1,137 @@
+body {
+    font: 12px "Lucida Sans Unicode","Trebuchet MS",Arial,Helvetica;
+    margin: 0px;
+    background-color: #d9dee2;
+    background-image: -moz-linear-gradient(center top, #ebeef2, #d9dee2)
+}
+
+#login {
+    box-shadow: 
+        0 0 2px rgba(0, 0, 0, 0.2), 
+        0 1px 1px rgba(0, 0, 0, 0.2),
+        0 3px 0 #fff,
+        0 4px 0 rgba(0, 0, 0, 0.2),
+        0 6px 0 #fff,
+        0 7px 0 rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: 
+        0 0 2px rgba(0, 0, 0, 0.2), 
+        0 1px 1px rgba(0, 0, 0, 0.2),
+        0 3px 0 #fff,
+        0 4px 0 rgba(0, 0, 0, 0.2),
+        0 6px 9 #fff,
+        0 7px 0 rgba(0, 0, 0, 0.2);
+        margin: -150px 0 0 -230px;
+        position: absolute;
+        z-index: 0;
+        padding: 30px;
+        width: 400px;
+        height: 240px;
+        top: 50%;
+        left: 50%;
+        background-color: #fff;
+        background-image: -moz-linear-gradient(center top, #fff, #eee);
+        border-radius: 3px;
+}
+
+#login:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    border: 1px dashed #ccc;
+    top: 5px;
+    bottom: 5px;
+    right: 5px;
+    left: 5px;
+    box-shadow: 0 0 0 1px #fff;
+}
+
+h1 {
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.7), 0px 2px 0 rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    text-align: center;
+    color: #666;
+    margin: 0 0 30px 0;
+    letter-spacing: 4px;
+    font: normal 26px/1 Verdana, Helvetica;
+    position: relative;
+}
+
+h1:after, h1:before {
+    background-color: #777;
+    content: " ";
+    height: 1px;
+    position: absolute;
+    top: 15px;
+    width: 120px;
+}
+
+h1:after {
+    background-image: linear-gradient(left, #777, #fff);
+    background-image: -moz-linear-gradient(left, #777, #fff);
+    right: 0;
+}
+
+h1:before {
+    background-image: linear-gradient(right, #777, #fff);
+    background-image: -moz-linear-gradient(right, #777, #fff);
+    left: 0;
+}
+
+fieldset {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+#inputs input {
+    padding: 15px 15px 15px 30px;
+    margin: 0 0 10px 0;
+    width: 353px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
+}
+
+#inputs input:focus {
+    background-color: #fff;
+    border-color: #E8C291;
+    outline: medium none;
+    box-shadow: 0 0 0 1px #ebc291 inset;
+}
+
+#actions {
+    margin: 25px 0 0 0;
+}
+
+#submit {
+    background-color: #ffb94b;
+    background-image: linear gradient(top, #fddb6f, #ffb94b);
+    background-image: -moz-linear-gradient(top, #fddb6f, #ffb94b);
+    border-radius: 3px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #D69E31 #E3A037 #D5982D;
+    float: left;
+    height: 35px;
+    width: 120px;
+    padding: 0;
+    cursor: pointer;
+    font: bold 15px Arial, Helvetica;
+    color: #8f510a;
+}
+
+#submit:hover, #submit:focus {
+    background-color: #fddb6f;
+    background-image: -moz-linear-gradient(center top , #FFB94B, #FDDB6F);
+}
+
+a{
+    line-height: 35px;
+    float: right;
+    color: #3151a2;
+    margin-left: 10px;
+}
+
+/* h-shadow v-shadow blur spread color inset */

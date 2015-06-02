@@ -1,24 +1,30 @@
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin: 0px;
 }
 
 li{
     list-style: none;
 }
 
-a {
-  color: #00B7FF;
+.m-l-5 {
+    margin-left: 5px;
 }
 
-#message-tags{
-    margin-top: 80px;
+.m-l-10 {
+    margin-left: 10px;
 }
 
-.chat{
-    width: 80%;
+.m-l-15 {
+    margin-left: 15px;
 }
 
-#message-edit{
-    height: 80px;
+.m-l-20 {
+    margin-left: 20px;
+}
+
+.alert-wrapper {
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
 }

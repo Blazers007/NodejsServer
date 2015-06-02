@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{title}}</title>
+    <link type="text/css" rel="stylesheet" href="/stylesheets/style.css"/>
+    {{!-- <link type="text/css" rel="stylesheet" href="/stylesheets/materialize.css"/> --}}
+    {{{block "pageStyles"}}}
+  </head>
+
+  <body>
+
+    <!-- Placeholder for page content. -->
+    {{{body}}}
+
+    <!-- Partials are common snippets to be used 1 or more pages. -->
+    {{> scripts}}
+    {{> other}}
+
+    <!-- A block is placeholder for pieces of content defined in a page. -->
+    {{{block 'pageScripts'}}}
+    {{!--   <script src="/javascripts/materialize.js"></script> --}}
+  </body>
+</html>

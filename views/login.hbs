@@ -1,0 +1,15 @@
+{{#contentFor 'pageStyles'}}
+    <link rel="stylesheet" href="/stylesheets/login.css">
+{{/contentFor}}
+
+<form  id="login" action="login" method="post">
+    <h1>Log In</h1>
+    <fieldset id="inputs">
+        <input type="text" id="username" placeholder="Username" autofocus required>
+        <input type="password" placeholder="Password" required>
+    </fieldset>
+    <fieldset id="actions">
+        <input type="submit" id="submit" value="Log in">
+        <a href="">Forgot your password?</a>
+    </fieldset>
+</form>

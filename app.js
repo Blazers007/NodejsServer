@@ -1,20 +1,22 @@
 var express = require('express');
-var path = require('path');
+var fp = require('path');
 var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+var fs = require('fs');
+var hbs = require('express-hbs');
+/* materialize-css */
 
 var routes = require('./routes/index');
-var users = require('./routes/users');
-var test = require('./routes/test');
-
 // 创建Express实例
 var app = express();
 
-// 定义EJS模板引擎和模板文件位置  JADE 也可
-app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'ejs');
+ function relative(path) {
+    return fp.join(__dirname, path);
+  }
+  
+ var viewsDir = relative('views');
 
 //app.use(favicon(__dirname + '/public/favicon.ico'));
 // 定义日志和输出级别
@@ -25,13 +27,48 @@ app.use(bodyParser.urlencoded({ extended: false }));
 // 定义COOKIE解析器
 app.use(cookieParser());
 // 定义静态文件目录
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(relative('public')));
+
+  // Hook in express-hbs and tell it where known directories reside
+  app.engine('hbs', hbs.express4({
+    partialsDir: [relative('views/partials'), relative('views/partials-other')],
+    defaultLayout: relative('views/layout/default.hbs')
+  }));
+  app.set('view engine', 'hbs');
+  app.set('views', viewsDir);
+
+  // Register sync helper
+  hbs.registerHelper('link', function(text, options) {
+    var attrs = [];
+    for (var prop in options.hash) {
+      attrs.push(prop + '="' + options.hash[prop] + '"');
+    }
+    return new hbs.SafeString(
+      '<a ' + attrs.join(' ') + '>' + text + '</a>'
+    );
+  });
+
+  // Register Async helpers
+  hbs.registerAsyncHelper('readFile', function(filename, cb) {
+    fs.readFile(fp.join(viewsDir, filename), 'utf8', function(err, content) {
+      if (err) console.error(err);
+      cb(new hbs.SafeString(content));
+    });
+  });
+
 
 // 匹配路径和路由
 app.use('/', routes);
-app.use('/users', users);
-app.use('/dev', test);
-app.use("/admin", require('./routes/admin'));
+
+// Use simple Routers
+
+app.get('/login', function(req, res, next) {
+  res.render('login', {
+    title: "Login Page"
+  })
+});
+
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
@@ -63,22 +100,5 @@ app.use(function(err, req, res, next) {
     error: {}
   });
 });
-
-/* Mongoose DB */
-//var Mongodb = require("mongodb"),
-//    Db = Mongodb.Db,
-//    Connection = Mongodb.Connection,
-//    Server = Mongodb.Server;
-//
-//var mongo = new Db("testDb",new Server("localhost",Connection.DEFAULT_PORT),{safe:true});
-//
-//mongo.open(function(err,db){
-//  db.collection("test_table",function(err,collection){
-//    collection.save({name:'Test 01'},{safe:true},function(err,app){
-//      mongo.close();
-//      console.log(app);
-//    });
-//  });
-//})
 
 module.exports = app;
