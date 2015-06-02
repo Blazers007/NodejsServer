@@ -6,7 +6,11 @@ $(document).ready(function(){
         + '<li class="even">'
         + '<% } %>'
         + '<a href="#" class="user">'
-        + '<img src="/images/avatar-1.png" class="img-responsive avatar_">'
+        + '<% if(type > 0){ %>'
+        + '<img src="/image/patient.png" class="img-responsive avatar_">'
+        + '<% } else { %>'
+        + '<img src="/image/doctor.png" class="img-responsive avatar_">'
+        + '<% }%>'
         + ' <span class="user-name"><%= sender %></span> </a>'
         + '<div class="reply-content-box">'
         + '<span class="reply-time"><%= date %></span>'
@@ -40,7 +44,7 @@ $(document).ready(function(){
             message = ejs.render(template, {
                 'type': -1,
                 'content': content,
-                'sender': 'Doctor',
+                'sender': '医生',
                 'date': '2015年05月28日22:21:09'
             });
              var ul = $("#chat-list");
