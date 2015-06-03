@@ -6,7 +6,7 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var fs = require('fs');
 var hbs = require('express-hbs');
-/* materialize-css */
+var Bmob = require('bmob').Bmob;
 
 var routes = require('./routes/index');
 // 创建Express实例
@@ -68,8 +68,6 @@ app.get('/login', function(req, res, next) {
   })
 });
 
-
-
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   var err = new Error('Not Found');
@@ -100,5 +98,14 @@ app.use(function(err, req, res, next) {
     error: {}
   });
 });
+
+/* Connect to database */
+
+/* Connect to Bmob */
+// Bmob.initialize("f0d74dc5fda96aa9becdbd2a0875225c", "d9c4567879453b95bb2b948a801e5691");
+// var ChatModel = Bmob.Object.extend("ChatModel");
+/* Start SocketIO Server */
+
+console.log("initialize Done!");
 
 module.exports = app;

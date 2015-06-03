@@ -1,58 +1,5 @@
-nav {
-    height: 48px;
-    background-color: #3963ED;
-    color: white;
-}
-
-nav #title{
-    line-height: 48px;
-    margin: 0 0 0 16px;
-    float: left;
-}
-
-#nav-ul-right {
-    float: right;
-}
-
-#nav-ul-right:after {
-    content: "";
-    clear: both;
-}
-
-#nav-ul-right li {
-    float:left;
-    margin-right: 10px;
-    cursor: pointer;
-}
-
-.table-container {
-    display: table;
-    width: 100%;
-}
-
-.table-row {
-    display: table-row;
-}
-
-.table-ceil {
-    display: table-cell;
-}
-
-.main-wrapper {
-    display: table-cell;
-    vertical-align: top;
-}
-
-.contact-wrapper {
-    display: table-cell;
-    width: 312px;
-    padding: 0;
-    vertical-align: top;
-}
-
-
 .contact-wrapper ul li {
-    width: 290px;
+    width: 100%;
     vertical-align: middle;
     background-color: #f0f0f0;
     border-radius: 1px;
@@ -78,57 +25,32 @@ nav #title{
     border-radius: 24px;
 }
 
-.user-name {
+ul.contact-list span.contact-name {
     vertical-align: middle;
     display: table-cell;
     cursor: pointer;
     font-size: 18px;
 }
 
-
-/*   Chat */
-
-.clear {
-    clear: both;
+/*Chat*/
+.chat-wrapper {
+    margin-top: 32px;
 }
 
-.chat-person-wrapper {
-    width: 100%;
-}
-
-.chat-person-wrapper ul {
-    margin: 24px 0 0 0;
-    padding: 0;
-}
-
-.chat-person-wrapper ul li {
-    float: left;
-    padding: 4px 16px 4px 16px;
-    background-color: #EAD1D1;
-    margin: 0 1px 0 0;
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
-    cursor: pointer;
-}
-
-.chat-person-wrapper ul li:first-child {
+#chat-display {
+    height: 470px;
+    overflow-y: scroll;
     background-color: #f0f0f0;
+    border-radius: 16px;
 }
 
-.chat-person-wrapper ul li:hover {
-    background-color: #58CBE6;
-    color: white;
+/*Info well*/
+.well {
+    height: 550px;
 }
 
-.chat-window-wrapper {
-    background-color: #f0f0f0;
-    width: 100%;
-}
-
-#chat-info {
-    height: 400px;
-    width: 200px;
-}
-
-#chat-window {
+.input-wrapper * {
+    margin-top: 12px;
+    height: 56px;
+    vertical-align: middle;
 }

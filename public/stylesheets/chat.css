@@ -1,6 +1,12 @@
+.content-reply-box {
+    width: 100%;
+    padding: 10px;
+}
+
 .content-reply-box li {
-    margin-top: 18px;
-    margin-bottom: 18px;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 2em;
 }
 
 .content-reply-box li.odd {
@@ -13,12 +19,14 @@
 
 .content-reply-box li.odd .user{
     float: left;
-    margin-right: 10px;
 }
 
 .content-reply-box li.even .user{
     float: right;
-    margin-left: 10px;
+}
+
+.user {
+    margin-top: 10px;
 }
 
 .content-reply-box li.odd .reply-content-box{
@@ -27,6 +35,15 @@
 
 .content-reply-box li.even .reply-content-box{
     margin-right: 60px;
+}
+
+.user-name {
+    color: #999;
+    margin-top: 5px;
+    display: block;
+    text-align: center;
+    width: 50px;
+    white-space: nowrap;
 }
 
 .reply-time{
@@ -89,8 +106,28 @@
 .avatar_{
     width: 48px;
     height: 48px;
+    border-radius: 24px;
+    border-color: #bbb;
+    border-style: solid;
+    border-width: 1px;
 }
 
-.reply-image {
+/*Override the nav-pills*/
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+
+}
+
+/* Chat Heading */
+ul[role=tab-list] {
     width: 100%;
+    overflow-y: hidden;
+}
+
+li[role=presentation] {
+    margin-right: 8px;
+    margin-bottom: 8px;
+    border-color: #ccc;
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
 }
