@@ -6,17 +6,20 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var fs = require('fs');
 var hbs = require('express-hbs');
-var Bmob = require('bmob').Bmob;
-
+var connect = require('connect');
 var routes = require('./routes/index');
 // 创建Express实例
 var app = express();
 
- function relative(path) {
+function relative(path) {
     return fp.join(__dirname, path);
-  }
-  
- var viewsDir = relative('views');
+}
+
+function log(msg) {
+    console.log("Console : " + msg);
+}
+
+var viewsDir = relative('views');
 
 //app.use(favicon(__dirname + '/public/favicon.ico'));
 // 定义日志和输出级别
@@ -56,17 +59,21 @@ app.use(express.static(relative('public')));
     });
   });
 
+// 设置Session
+//app.use(session({
+//    store: new RedisStore({
+//        host: "127.0.0.1",
+//        port: 6379,
+//        db: "test_session"
+//    }),
+//    resave:false,
+//    saveUninitialized:false,
+//    secret: 'keyboard cat'
+//}));
 
 // 匹配路径和路由
 app.use('/', routes);
 
-// Use simple Routers
-
-app.get('/login', function(req, res, next) {
-  res.render('login', {
-    title: "Login Page"
-  })
-});
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
@@ -99,13 +106,6 @@ app.use(function(err, req, res, next) {
   });
 });
 
-/* Connect to database */
-
-/* Connect to Bmob */
-// Bmob.initialize("f0d74dc5fda96aa9becdbd2a0875225c", "d9c4567879453b95bb2b948a801e5691");
-// var ChatModel = Bmob.Object.extend("ChatModel");
-/* Start SocketIO Server */
-
-console.log("initialize Done!");
+log("Initialize Server Done!");
 
 module.exports = app;

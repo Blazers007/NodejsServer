@@ -37,7 +37,7 @@ ul.contact-list span.contact-name {
     margin-top: 32px;
 }
 
-#chat-display {
+.chat-frame {
     height: 470px;
     overflow-y: scroll;
     background-color: #f0f0f0;
@@ -53,4 +53,10 @@ ul.contact-list span.contact-name {
     margin-top: 12px;
     height: 56px;
     vertical-align: middle;
+}
+
+/* Appointment */
+#table-appointment {
+    text-align: center;
+    margin-top: 72px;
 }

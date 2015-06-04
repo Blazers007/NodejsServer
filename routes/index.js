@@ -1,46 +1,47 @@
 var express = require('express');
 var router = express.Router();
+var Bmob = require('bmob').Bmob;
+/* Connect to database */
+
+Bmob.initialize("f0d74dc5fda96aa9becdbd2a0875225c", "d9c4567879453b95bb2b948a801e5691");
+var AdminTable = Bmob.Object.extend("AdminTable");
+var queryLogin = new Bmob.Query(AdminTable);
 
 
-/* User Goto the Root of the Root
-        One router likes a folder
-. */
 router.get('/', function(req, res, next) {
-  res.render('index', { 
-    title: 'Nodejs & HTML & CSS' ,
-    content: 'Hello world!'
+    res.render('login', {
+        title: 'Heart'
     });
 });
 
-/* Visit the login site */
-router.get('/login', function(req, res, next) {
-    res.render('login', { title: 'User Login'})
-});
-
 /* Submit data to the login site */
-router.post('/login', function(req, res, next) {
-    var user = {
-        username : 'admin',
-        password : '1'
-    }
-    /* Check */
-    if (req.body.username === user.username && req.body.password === user.password) {
-        /* Must return or code will go on and make error! */
-        return res.redirect('/home');
-    }
-    res.redirect("/login");
+router.post('/', function(req, res, next) {
+    console.log("User : [" + req.body.username + "]  try to login");
+    /* Get Info from Bmob */
+    queryLogin.equalTo('username', req.body.username);
+    queryLogin.equalTo('password', req.body.password);
+    queryLogin.count({
+        success: function(count) {
+            if (count)
+                return res.redirect('/index');
+            return res.redirect('/');
+        },
+        error : function(error) {
+            return res.redirect("/");
+        }
+    });
 });
 
-/* visit the logout site */
-router.get('/logout', function(req, res, next) {
-    res.redirect('/');
+/* Visit the main page */
+router.get('/index', function(req, res, next) {
+    res.render('index', { title: 'Heart'})
 });
 
-/* rediect to HOME */
-router.get('/home', function(req, res, next) {
-    res.render('home', { title : 'Home', user : 'Admin'})
+/* Form Control Page */
+router.get('/forms', function(req, res, next) {
+    res.render('forms',{
+        title: 'Heart'
+    })
 });
-
-/* TODO:how to rediect user form here to another router's subsites? */
 
 module.exports = router;
