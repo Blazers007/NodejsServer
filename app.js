@@ -76,7 +76,7 @@ hbs.registerHelper('link', function(text, options) {
     for (var prop in options.hash) {
         attrs.push(prop + '="' + options.hash[prop] + '"');
     }
-    return nejw hbs.SafeString(
+    return new hbs.SafeString(
         '<a ' + attrs.join(' ') + '>' + text + '</a>'
     );
 });
