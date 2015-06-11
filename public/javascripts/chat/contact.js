@@ -28,7 +28,7 @@ $(function(){
                 fillInData(objects);
             },
             error: function(error) {
-                alert(error);
+
             }
         });
         return false;
@@ -84,3 +84,7 @@ function render(content) {
     }
     return template;
 }
+
+
+
+/* 预约表单部分 */

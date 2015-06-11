@@ -9,7 +9,9 @@ var session = require('express-session');
 var fs = require('fs');
 var hbs = require('express-hbs');
 var connect = require('connect');
+/* 各部分的路由 */
 var routes = require('./routes/index');
+var route_weixin = require('./routes/weixin');
 
 /* 初始化操作 */
 var os = require('os');
@@ -103,6 +105,7 @@ hbs.registerAsyncHelper('readFile', function(filename, cb) {
 
 /* 设置路由地址 设置了一个中间件 */
 app.use('/', routes);
+app.use('/weixin', route_weixin);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

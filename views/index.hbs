@@ -112,31 +112,7 @@
 				</thead>
 				{{!-- 自动加载的部分 分页显示 --}}
 				<tbody>
-					<tr>
-						<td>李时珍</td>
-						<td>李时珍</td>
-						<td>2015年6月4日15:48:01</td>
-						<td>冠心病复诊</td>
-					</tr>
-					<tr>
-						<td>李时珍</td>
-						<td>李时珍</td>
-						<td>2015年6月4日15:48:01</td>
-						<td>冠心病复诊</td>
-					</tr>
-					<tr>
-						<td>李时珍</td>
-						<td>李时珍</td>
-						<td>2015年6月4日15:48:01</td>
-						<td>冠心病复诊</td>
-					</tr>
-					<tr>
-						<td>李时珍</td>
-						<td>李时珍</td>
-						<td>2015年6月4日15:48:01</td>
-						<td>冠心病复诊</td>
-					</tr>
-					<tr>
+					<tr class="appointment-row">
 						<td>李时珍</td>
 						<td>李时珍</td>
 						<td>2015年6月4日15:48:01</td>
@@ -175,6 +151,74 @@
 
 {{!-- Content over --}}
 
-
+{{!--  Modal --}}
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">病人预约单据</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1">
+                        <table class="table table-bordered table-hover">
+                            <tr>
+                                <td class="table-label">预约单状态</td>
+                                <td colspan="3" class="table-status">申请中</td>
+                            </tr>
+                            <tr>
+                                <td class="table-label">预约医生姓名</td>
+                                <td>李思媛</td>
+                                <td class="table-label">医生单位</td>
+                                <td>上海市第六人民医院</td>
+                            </tr>
+                            <tr>
+                                <td class="table-label">病人信息</td>
+                                <td>病人王某某</td>
+                                <td class="table-label">病人症状</td>
+                                <td>心脏病需要复诊</td>
+                            </tr>
+                            <tr>
+                                <td class="table-label">病人信息</td>
+                                <td>病人王某某</td>
+                                <td class="table-label">病人症状</td>
+                                <td>心脏病需要复诊</td>
+                            </tr>
+                            <tr>
+                                <td class="table-label">病人信息</td>
+                                <td>病人王某某</td>
+                                <td class="table-label">病人症状</td>
+                                <td>心脏病需要复诊</td>
+                            </tr>
+                            <tr>
+                                <td class="table-label">病人信息</td>
+                                <td>病人王某某</td>
+                                <td class="table-label">病人症状</td>
+                                <td>心脏病需要复诊</td>
+                            </tr>
+                            <tr>
+                                <td class="table-label">病人信息</td>
+                                <td>病人王某某</td>
+                                <td class="table-label">病人症状</td>
+                                <td>心脏病需要复诊</td>
+                            </tr>
+                            <tr>
+                                <td class="table-label">病人信息</td>
+                                <td>病人王某某</td>
+                                <td class="table-label">病人症状</td>
+                                <td>心脏病需要复诊</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button"  class="btn btn-default" data-dismiss="modal">关闭</button>
+                <button type="button" id="btn-send-form" class="btn btn-primary">派发预约单</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
 
 

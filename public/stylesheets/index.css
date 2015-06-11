@@ -60,3 +60,18 @@ ul.contact-list span.contact-name {
     text-align: center;
     margin-top: 72px;
 }
+
+.appointment-row {
+    cursor: pointer;
+}
+
+
+/* 模态框表格 实际项目中需要进行文件分割 */
+
+.table-label {
+    background-color: rgba(128,128,128, 0.1);
+}
+
+.table-status {
+    font-weight: bold;
+}
