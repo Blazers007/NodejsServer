@@ -3,7 +3,8 @@
  */
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
-  padding-top: 50px;
+  padding-top: 96px;
+  background-color: rgba(90,90,90,0.1);
 }
 /*
  * Global add-ons

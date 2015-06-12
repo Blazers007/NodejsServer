@@ -1,7 +1,7 @@
 .contact-wrapper ul li {
     width: 100%;
     vertical-align: middle;
-    background-color: #f0f0f0;
+    background-color: #ffffff;
     border-radius: 1px;
     border-color: #ccc;
     border-style: solid;
@@ -15,7 +15,7 @@
 }
 
 .contact-wrapper ul li:hover {
-    background-color: #e2e2e2;
+    background-color: #dcdcdc;
 }
 
 .user-head-img {
@@ -34,14 +34,16 @@ ul.contact-list span.contact-name {
 
 /*Chat*/
 .chat-wrapper {
-    margin-top: 32px;
+    padding-bottom: 24px;
 }
 
 .chat-frame {
     height: 470px;
+    padding-right: 24px;
     overflow-y: scroll;
     background-color: #f0f0f0;
     border-radius: 16px;
+    border: solid 1px rgba(0,0,0,0.1);
 }
 
 /*Info well*/
@@ -56,9 +58,14 @@ ul.contact-list span.contact-name {
 }
 
 /* Appointment */
+
+#appointment {
+    background-color: #fff;
+}
+
 #table-appointment {
     text-align: center;
-    margin-top: 72px;
+    margin-top: 24px;
 }
 
 .appointment-row {
@@ -74,4 +81,32 @@ ul.contact-list span.contact-name {
 
 .table-status {
     font-weight: bold;
+}
+
+/* 表单的分类nav */
+.appointment-nav {
+    margin-bottom: 12px;
+}
+
+.appointment-nav ul li {
+    margin-right: 16px;
+}
+
+.appointment-nav ul li a {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+
+/* 聊天的多功能组件 */
+#chat-tools{
+    margin-top: 16px;
+}
+
+#chat-tools button {
+    margin-right: 12px;
+}
+
+#chat-tools button span {
+    margin-right: 8px;
 }
