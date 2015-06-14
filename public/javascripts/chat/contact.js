@@ -26,6 +26,8 @@ $(function(){
         query.find({
             success: function(objects) {
                 fillInData(objects);
+                __status = '申请结束';
+                alert()
             },
             error: function(error) {
 
