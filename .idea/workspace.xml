@@ -2,17 +2,777 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c7d95a2-faea-4df5-8590-d62f8d820372" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/google/Roboto.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/google/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/appointment/controller/appoint.js" afterPath="$PROJECT_DIR$/public/javascripts/appointment/controller/appoint.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/chat/contact.js" afterPath="$PROJECT_DIR$/public/javascripts/chat/contact.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layout/default.hbs" afterPath="$PROJECT_DIR$/views/layout/default.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/index.css" afterPath="$PROJECT_DIR$/public/stylesheets/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.hbs" afterPath="$PROJECT_DIR$/views/index.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/test/fixture/image.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/test/fixture/movie.mp4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/test/fixture/pic.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/test/fixture/test.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/humanize-ms/.editorconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/formstream/.jshintignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/humanize-ms/.jshintignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/formstream/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/humanize-ms/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/formstream/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/formstream/node_modules/buffer-concat/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/formstream/node_modules/pause-stream/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/default-user-agent/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/digest-header/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/digest-header/node_modules/utility/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/digest-header/node_modules/utility/node_modules/address/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/humanize-ms/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/humanize-ms/node_modules/ms/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/iconv-lite/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/formstream/node_modules/pause-stream/node_modules/through/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/humanize-ms/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/iconv-lite/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/83.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/formstream/AUTHORS" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/default-user-agent/AUTHORS" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/digest-header/AUTHORS" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/digest-header/node_modules/utility/AUTHORS" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/sax/AUTHORS" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/iconv-lite/Changelog.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/media-typer/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/formstream/History.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/History.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/default-user-agent/History.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/digest-header/History.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/digest-header/node_modules/utility/History.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/digest-header/node_modules/utility/node_modules/address/History.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/humanize-ms/History.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/Jakefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/sax/LICENSE-W3C.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/formstream/node_modules/pause-stream/node_modules/through/LICENSE.APACHE2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/formstream/node_modules/pause-stream/node_modules/through/LICENSE.MIT" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/formstream/node_modules/buffer-concat/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/default-user-agent/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/digest-header/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/digest-header/node_modules/utility/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/digest-header/node_modules/utility/node_modules/address/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/formstream/node_modules/mime/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/formstream/node_modules/pause-stream/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/iconv-lite/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/media-typer/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/native-or-bluebird/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/statuses/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/sax/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/LazyWrapper.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/LodashWrapper.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/MapCache.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-crypto/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-crypto/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/formstream/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/formstream/node_modules/buffer-concat/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/formstream/node_modules/destroy/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/formstream/node_modules/mime/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/default-user-agent/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/digest-header/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/digest-header/node_modules/utility/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/digest-header/node_modules/utility/node_modules/address/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/humanize-ms/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/humanize-ms/node_modules/ms/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/iconv-lite/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/media-typer/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/native-or-bluebird/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/statuses/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/sax/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/SetCache.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/lib/XMLAttribute.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/lib/XMLBuilder.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/lib/XMLCData.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/lib/XMLComment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/lib/XMLDTDAttList.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/lib/XMLDTDElement.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/lib/XMLDTDEntity.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/lib/XMLDTDNotation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/lib/XMLDeclaration.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/lib/XMLDocType.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/lib/XMLElement.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/lib/XMLNode.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/lib/XMLProcessingInstruction.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/lib/XMLRaw.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/lib/XMLStringifier.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/lib/XMLText.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/math/add.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/digest-header/node_modules/utility/node_modules/address/lib/address.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/function/after.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/all.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/any.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/lib/api_agent.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/lib/api_batch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/lib/api_common.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/test/api_common.test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/lib/api_department.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/test/api_department.test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/lib/api_ip.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/lib/api_js.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/lib/api_media.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/test/api_media.test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/lib/api_menu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/test/api_menu.test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/lib/api_message.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/test/api_message.test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/lib/api_tag.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/test/api_tag.test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/lib/api_user.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/test/api_user.test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/arrayCopy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/arrayEach.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/arrayEachRight.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/arrayEvery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/arrayExtremum.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/arrayFilter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/arrayMap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/arrayReduce.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/arrayReduceRight.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/arraySome.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/arraySum.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/function/ary.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/object/assign.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/assignDefaults.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/assignOwnDefaults.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/assignWith.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/formstream/node_modules/pause-stream/node_modules/through/test/async.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/at.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/utility/attempt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/sax/test/attribute-name.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/sax/test/attribute-no-space.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/formstream/node_modules/pause-stream/node_modules/through/test/auto-destroy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/function/backflow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/test/fixtures/backslash.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/test/fixtures/backslash.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseAssign.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseAt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseCallback.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseClone.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseCompareAscending.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseCopy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseCreate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseDelay.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseDifference.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseEach.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseEachRight.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseEvery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseExtremum.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseFill.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseFilter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseFind.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseFindIndex.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseFlatten.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseFor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseForIn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseForOwn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseForOwnRight.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseForRight.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseFunctions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseGet.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseIndexOf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseIsEqual.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseIsEqualDeep.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseIsFunction.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseIsMatch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseLodash.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseMap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseMatches.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseMatchesProperty.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseMerge.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseMergeDeep.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseProperty.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/basePropertyDeep.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/basePullAt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseRandom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseReduce.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseSetData.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseSlice.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseSome.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseSortBy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseSortByOrder.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseSum.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseToString.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseUniq.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseValues.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseWhile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseWrapperValue.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/function/before.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/sax/examples/big-not-pretty.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/iconv-lite/encodings/tables/big5-added.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/binaryIndex.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/binaryIndexBy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/function/bind.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/function/bindAll.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/bindCallback.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/function/bindKey.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/iconv-lite/lib/bom-handling.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/test/fixtures/includes/bom.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/lib/bom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/sax/test/buffer-overrun.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/bufferClone.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/formstream/node_modules/pause-stream/node_modules/through/test/buffering.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/cacheIndexOf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/cachePush.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/utility/callback.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/string/camelCase.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/canon.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/string/capitalize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/sax/test/case.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/sax/test/cdata-chunked.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/sax/test/cdata-end-split.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/sax/test/cdata-fake-end.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/sax/test/cdata-multiple.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/sax/test/cdata.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/chain.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/chain/chain.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/charsLeftIndex.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/charsRightIndex.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/chunk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/lang/clone.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/lang/cloneDeep.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/statuses/codes.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/collect.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/test/fixtures/comments.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/test/fixtures/comments.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/chain/commit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/compact.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/compareAscending.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/compareMultiple.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/function/compose.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/composeArgs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/composeArgsRight.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/test/config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/test/fixtures/consecutive-tags.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/test/fixtures/consecutive-tags.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/utility/constant.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/contains.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/countBy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/humanize-ms/coverage/coverage.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/iconv-lite/encodings/tables/cp936.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/iconv-lite/encodings/tables/cp949.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/iconv-lite/encodings/tables/cp950.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/object/create.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/createAggregator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/createAssigner.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/createBaseEach.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/createBaseFor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/createBindWrapper.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/createCache.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/createCompounder.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/createCtorWrapper.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/createCurry.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/createExtremum.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/createFind.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/createFindIndex.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/createFindKey.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/createFlow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/createForEach.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/createForIn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/createForOwn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/createHybridWrapper.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/createObjectMapper.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/createPadDir.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/createPadding.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/createPartial.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/createPartialWrapper.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/createReduce.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/createSortedIndex.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/createWrapper.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/function/curry.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/function/curryRight.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/sax/test/cyrillic.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/date.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/digest-header/node_modules/utility/benchmark/date_YYYYMMDD.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/digest-header/node_modules/utility/benchmark/date_format.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/iconv-lite/encodings/dbcs-codec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/iconv-lite/encodings/dbcs-data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/function/debounce.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/string/deburr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/deburrLetter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/object/defaults.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/function/defer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/function/delay.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/detect.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/difference.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routes/doctor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/test/fixtures/double-quote.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/test/fixtures/double-quote.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/drop.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/dropRight.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/dropRightWhile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/dropWhile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/sax/test/duplicate-attribute.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/each.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/eachRight.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/ejs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/lib/ejs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/test/ejs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/ejs.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/sax/test/emoji.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/formstream/node_modules/pause-stream/node_modules/through/test/end.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/sax/test/end_empty_stream.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/string/endsWith.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routes/enterprise.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/sax/test/entities.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/sax/test/entity-mega.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/lang/eq.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/equalArrays.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/equalByTag.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/equalObjects.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/test/fixtures/error.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/test/fixtures/error.out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/string/escape.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/escapeHtmlChar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/string/escapeRegExp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/escapeStringChar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/iconv-lite/encodings/tables/eucjp.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/every.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/sax/examples/example.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/iconv-lite/lib/extend-node.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/object/extend.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/test/fixtures/fail.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/fill.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/filter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/find.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/findIndex.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/object/findKey.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/findLast.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/findLastIndex.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/object/findLastKey.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/findWhere.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/first.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/flatten.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/flattenDeep.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/function/flow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/function/flowRight.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/sax/test/flush.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/foldl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/foldr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/forEach.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/forEachRight.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/object/forIn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/object/forInRight.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/object/forOwn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/object/forOwnRight.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/formstream/lib/formstream.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/function.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/object/functions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/iconv-lite/encodings/tables/gb18030-ranges.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/iconv-lite/encodings/tables/gbk-added.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/sax/examples/get-products.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/object/get.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/getData.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/getFuncName.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/getLength.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/getMatchData.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/getNative.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/getView.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/digest-header/node_modules/utility/benchmark/get_paramnames.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/groupBy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/lang/gt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/lang/gte.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/object/has.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/head.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/test/fixtures/hello-world.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/sax/examples/hello-world.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/utility/identity.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/number/inRange.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/test/fixtures/include-abspath.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/test/fixtures/include-simple.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/test/fixtures/include-simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/test/fixtures/include.css.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/test/fixtures/include.css.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/test/fixtures/include.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/test/tmp/include.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/test/fixtures/include.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/include.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/test/fixtures/include_cache.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/test/fixtures/include_cache.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/test/fixtures/include_preprocessor.css.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/test/fixtures/include_preprocessor.css.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/test/fixtures/include_preprocessor.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/test/tmp/include_preprocessor.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/test/fixtures/include_preprocessor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/test/fixtures/include_preprocessor_cache.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/test/fixtures/include_preprocessor_cache.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/includes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/incompat.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/incompat2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/humanize-ms/coverage/lcov-report/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/humanize-ms/coverage/lcov-report/humanize-ms/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/humanize-ms/coverage/lcov-report/humanize-ms/index.js.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-crypto/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-crypto/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/formstream/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/formstream/node_modules/buffer-concat/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/formstream/node_modules/destroy/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/formstream/node_modules/pause-stream/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/formstream/node_modules/pause-stream/node_modules/through/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/formstream/node_modules/pause-stream/node_modules/through/test/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/formstream/node_modules/pause-stream/test/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/default-user-agent/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/digest-header/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/digest-header/node_modules/utility/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/digest-header/node_modules/utility/node_modules/address/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/humanize-ms/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/humanize-ms/node_modules/ms/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/iconv-lite/encodings/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/iconv-lite/lib/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/media-typer/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/native-or-bluebird/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/statuses/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/sax/test/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/lib/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/indexBy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/indexOf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/indexOfNaN.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/initCloneArray.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/initCloneByTag.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/initCloneObject.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/initial.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/inject.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/iconv-lite/encodings/internal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/intersection.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/object/invert.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/invoke.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/invokePath.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/lang/isArguments.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/lang/isArray.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/isArrayLike.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/lang/isBoolean.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/lang/isDate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/lang/isElement.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/lang/isEmpty.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/lang/isEqual.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/lang/isError.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/lang/isFinite.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/lang/isFunction.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/isIndex.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/isIterateeCall.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/isKey.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/isLaziable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/isLength.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/lang/isMatch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/lang/isNaN.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/lang/isNative.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/lang/isNull.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/lang/isNumber.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/lang/isObject.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/isObjectLike.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/lang/isPlainObject.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/lang/isRegExp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/isSpace.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/isStrictComparable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/lang/isString.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/lang/isTypedArray.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/lang/isUndefined.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/sax/test/issue-23.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/sax/test/issue-30.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/sax/test/issue-35.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/sax/test/issue-47.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/sax/test/issue-49.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/sax/test/issue-84.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/test/fixtures/includes/menu/item.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/utility/iteratee.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/string/kebabCase.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/object/keys.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/object/keysIn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/lang.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/last.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/lastIndexOf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/lazyClone.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/lazyReverse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/lazyValue.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/humanize-ms/coverage/lcov.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/lib/list.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/test/fixtures/literal.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/test/fixtures/literal.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/chain/lodash.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/lang/lt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/lang/lte.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/map.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/mapDelete.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/mapGet.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/mapHas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/object/mapKeys.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/mapSet.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/object/mapValues.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/utility/matches.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/utility/matchesProperty.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/math.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/max.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/math/max.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/digest-header/node_modules/utility/benchmark/md5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/function/memoize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/test/fixtures/includes/menu-item.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/test/fixtures/menu.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/test/fixtures/menu.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/test/fixture/menu.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/test/fixtures/menu_preprocessor.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/test/fixtures/menu_preprocessor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/test/fixtures/menu_var.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/object/merge.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/mergeData.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/test/fixtures/messed.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/test/fixtures/messed.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/metaMap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/utility/method.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/utility/methodOf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/object/methods.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/formstream/node_modules/mime/mime.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/formstream/node_modules/mime/types/mime.types" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/math/min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/utility/mixin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/test/mocha.opts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-crypto/lib/msg_crypto.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-crypto/lib/msg_crypto.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/function/negate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/test/fixtures/newlines.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/test/fixtures/newlines.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/test/fixtures/newlines.mixed.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/test/fixtures/newlines.mixed.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/test/fixtures/no.newlines.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/test/fixtures/no.newlines.error.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/test/fixtures/no.newlines.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/test/fixtures/no.semicolons.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/test/fixtures/no.semicolons.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/formstream/node_modules/mime/types/node.types" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/utility/noop.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/sax/examples/not-pretty.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/date/now.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/number.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/object.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/object.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/object/omit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/function/once.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-crypto/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-crypto/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/formstream/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/formstream/node_modules/buffer-concat/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/formstream/node_modules/destroy/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/formstream/node_modules/mime/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/formstream/node_modules/pause-stream/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/formstream/node_modules/pause-stream/node_modules/through/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/default-user-agent/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/digest-header/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/digest-header/node_modules/utility/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/digest-header/node_modules/utility/node_modules/address/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/humanize-ms/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/humanize-ms/node_modules/ms/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/iconv-lite/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/media-typer/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/native-or-bluebird/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/statuses/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/sax/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/string/pad.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/string/padLeft.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/string/padRight.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/object/pairs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/test/fixtures/para.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/string/parseInt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/sax/test/parser-position.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/function/partial.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/function/partialRight.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/partition.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/formstream/node_modules/pause-stream/test/pause-end.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/test/fixtures/pet.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/object/pick.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/pickByArray.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/pickByCallback.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/chain/plant.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/pluck.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/humanize-ms/coverage/lcov-report/prettify.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/humanize-ms/coverage/lcov-report/prettify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/sax/examples/pretty-print.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/lib/processors.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/native-or-bluebird/promise.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/utility/property.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/utility/propertyOf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/pull.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/pullAt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/number/random.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/utility/range.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/reEscape.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/reEvaluate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/reInterpolate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/formstream/node_modules/pause-stream/readme.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/formstream/node_modules/pause-stream/node_modules/through/readme.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/realNames.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/function/rearg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/reduce.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/reduceRight.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/reject.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/remove.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/test/tmp/renderFile.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/reorder.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/string/repeat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/replaceHolders.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/rest.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/function/restParam.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/object/result.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/chain/reverse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/test/fixtures/rmWhitespace.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/test/fixtures/rmWhitespace.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/chain/run.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/sample.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/sax/lib/sax.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/iconv-lite/encodings/sbcs-codec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/iconv-lite/encodings/sbcs-data-generated.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/iconv-lite/encodings/sbcs-data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/sax/test/script-close-better.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/sax/test/script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/select.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/sax/test/self-closing-child-strict.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/sax/test/self-closing-child.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/sax/test/self-closing-tag.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/lib/session.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/object/set.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/setData.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/iconv-lite/encodings/tables/shiftjis.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/shimIsPlainObject.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/shimKeys.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/sax/examples/shopping.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/shuffle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/test/fixtures/single-quote.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/test/fixtures/single-quote.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/size.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/slice.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/string/snakeCase.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/some.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/sortBy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/sortByAll.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/sortByOrder.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/sortedIndex.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/sortedLastIndex.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/sortedUniq.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/function/spread.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/string/startCase.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/string/startsWith.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/sax/test/stray-ending.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/iconv-lite/lib/streams.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/sax/examples/strict.dtd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/string.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/test/fixtures/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/sum.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/math/sum.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/test/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/tail.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/take.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/takeRight.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/takeRightWhile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/takeWhile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/chain/tap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/string/template.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/string/templateSettings.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/sax/examples/test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/formstream/node_modules/mime/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/sax/examples/test.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/text.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/text.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/function/throttle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/chain/thru.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/utility/times.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/lang/toArray.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/toIterable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/chain/toJSON.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/toObject.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/toPath.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/lang/toPlainObject.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/chain/toString.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/sax/test/trailing-attribute-no-value.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/sax/test/trailing-non-whitespace.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/object/transform.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/string/trim.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/string/trimLeft.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/string/trimRight.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/trimmedLeftIndex.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/trimmedRightIndex.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/string/trunc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/sax/test/unclosed-root.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/string/unescape.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/unescapeHtmlChar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/union.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/uniq.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/unique.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/utility/uniqueId.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/sax/test/unquoted.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/unzip.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/unzipWith.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/lib/urllib.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/test/fixtures/user-no-with.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/test/fixtures/user.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/iconv-lite/encodings/utf16.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/iconv-lite/encodings/utf7.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/sax/test/utf8-split.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/lib/util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/lib/util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/wechat-enterprise-api/node_modules/urllib/node_modules/digest-header/node_modules/utility/lib/utility.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/utility.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/ejs/lib/utils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/chain/value.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/chain/valueOf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/object/values.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/object/valuesIn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/lib/wechat-enterprise.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/where.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/without.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/string/words.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/function/wrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/chain/wrapperChain.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/wrapperClone.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/chain/wrapperCommit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/chain/wrapperPlant.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/chain/wrapperReverse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/chain/wrapperToString.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/chain/wrapperValue.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/x.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/lib/xml2js.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/sax/test/xmlns-as-tag-name.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/sax/test/xmlns-issue-41.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/sax/test/xmlns-rebinding.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/sax/test/xmlns-strict.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/sax/test/xmlns-unbound-element.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/sax/test/xmlns-unbound.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/sax/test/xmlns-xml-default-ns.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/sax/test/xmlns-xml-default-prefix-attribute.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/sax/test/xmlns-xml-default-prefix.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/sax/test/xmlns-xml-default-redefine.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/xor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/zip.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/zipObject.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/wechat-enterprise/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/zipWith.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/npm-debug.log" afterPath="$PROJECT_DIR$/npm-debug.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/style.css" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/weixin.hbs" afterPath="$PROJECT_DIR$/views/weixin.hbs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="NodejsServer.iws" />
@@ -34,11 +794,65 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/stylesheets/index.css">
+      <file leaf-file-name="weixin.hbs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/weixin.hbs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.774194">
+              <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="weixin.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/weixin.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="101" column="1" selection-start-line="101" selection-start-column="1" selection-end-line="101" selection-end-column="1" />
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#41#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="enterprise.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/enterprise.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6241135">
+              <caret line="74" column="25" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="setting.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/setting.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.7096774">
+              <caret line="1" column="32" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -47,8 +861,8 @@
       <file leaf-file-name="index.hbs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/index.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="77" column="41" selection-start-line="77" selection-start-column="28" selection-end-line="77" selection-end-column="41" />
+            <state vertical-scroll-proportion="-4.967742">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="37" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -57,48 +871,8 @@
       <file leaf-file-name="default.hbs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/layout/default.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="appoint.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/javascripts/appointment/controller/appoint.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/javascripts/common.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.hbs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/app.hbs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/javascripts/chat/contact.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.37802908">
-              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+            <state vertical-scroll-proportion="-8.5161295">
+              <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -111,7 +885,6 @@
       <list>
         <option value="hbs" />
         <option value="JavaScript File" />
-        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -146,24 +919,24 @@
         <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="E:/Cloud/flow/vm_inspect.html" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/public/javascripts/weixin/weixin-common.js" />
-        <option value="$PROJECT_DIR$/views/weixin.hbs" />
         <option value="$PROJECT_DIR$/public/javascripts/weixin/weixin.js" />
         <option value="$PROJECT_DIR$/public/javascripts/common.js" />
         <option value="$PROJECT_DIR$/public/javascripts/chat/chat-common.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/chat/contact.js" />
         <option value="$PROJECT_DIR$/public/javascripts/chat/chat.js" />
         <option value="$PROJECT_DIR$/routes/weixin.js" />
         <option value="$PROJECT_DIR$/public/javascripts/appointment/controller/apppoint.js" />
         <option value="$PROJECT_DIR$/public/javascripts/appointment/app.js" />
-        <option value="$PROJECT_DIR$/public/google/Roboto.css" />
-        <option value="$PROJECT_DIR$/public/google/bootstrap.css" />
+        <option value="$PROJECT_DIR$/public/javascripts/appointment/controller/appoint.js" />
         <option value="$PROJECT_DIR$/views/layout/default.hbs" />
         <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
-        <option value="$PROJECT_DIR$/views/index.hbs" />
         <option value="$PROJECT_DIR$/public/stylesheets/index.css" />
-        <option value="$PROJECT_DIR$/public/javascripts/appointment/controller/appoint.js" />
-        <option value="$PROJECT_DIR$/public/javascripts/chat/contact.js" />
+        <option value="$PROJECT_DIR$/views/index.hbs" />
+        <option value="$PROJECT_DIR$/routes/doctor.js" />
+        <option value="$PROJECT_DIR$/views/weixin.hbs" />
+        <option value="$PROJECT_DIR$/routes/enterprise.js" />
+        <option value="$PROJECT_DIR$/app.js" />
       </list>
     </option>
   </component>
@@ -179,9 +952,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="737" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -222,7 +996,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -319,89 +1093,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NodejsServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NodejsServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NodejsServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NodejsServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NodejsServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NodejsServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appointment" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NodejsServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NodejsServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="google" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -417,7 +1111,6 @@
     <property name="ejs.close.delimiter" value="%&gt;" />
     <property name="js.eslint.nodeInterpreter" value="D:\Program Files (x86)\NodeJs\node.exe" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -545,47 +1238,47 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="737" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32848233" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18124342" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1810961" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.53118503" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.53069717" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23517169" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32882413" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3991684" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23596674" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32848233" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3991684" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.53118503" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1810961" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23596674" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.53118503" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.42723492" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32848233" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18124342" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3991684" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -615,43 +1308,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/javascripts/chat/contact.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="45" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/Movie.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/mongodb.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -747,6 +1403,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/.WebStorm10/system/extLibs/nodejs-v0.10.36-src/core-modules-sources/lib/net.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33282444">
+          <caret line="287" column="0" selection-start-line="287" selection-start-column="0" selection-end-line="287" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/bmob-min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -768,17 +1431,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/www">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.4763359">
-          <caret line="55" column="25" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/bmob-init.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.WebStorm10/system/extLibs/http_code.jquery.com_jquery-2.0.0.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.67480916">
+          <caret line="6044" column="9" selection-start-line="6044" selection-start-column="9" selection-end-line="6044" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -838,6 +1501,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://E:/Cloud/flow/vm_inspect.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12703583">
+          <caret line="119" column="5" selection-start-line="119" selection-start-column="5" selection-end-line="119" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -859,24 +1529,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/weixin.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.677419">
-          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13275434">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/chat/chat.js">
+    <entry file="file://$PROJECT_DIR$/public/javascripts/common.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -884,6 +1540,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="11" selection-start-line="11" selection-start-column="7" selection-end-line="13" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -895,39 +1554,111 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/google/Roboto.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="6.5056725">
-          <caret line="223" column="1" selection-start-line="223" selection-start-column="1" selection-end-line="223" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/google/bootstrap.css">
+    <entry file="file://$PROJECT_DIR$/public/javascripts/chat/contact.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/layout/default.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.40842786">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="19" />
+        <state vertical-scroll-proportion="-0.20919882">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <marker date="1434351784534" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/appointment/controller/appoint.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/chat/chat.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="70" column="28" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/doctor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layout/default.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.5161295">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/weixin.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.774194">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/index.hbs">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.967742">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="37" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/wechat-enterprise/lib/wechat-enterprise.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33279222">
+          <caret line="394" column="4" selection-start-line="394" selection-start-column="4" selection-end-line="394" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/www">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18723404">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/enterprise.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="77" column="41" selection-start-line="77" selection-start-column="28" selection-end-line="77" selection-end-column="41" />
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setting.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.7096774">
+          <caret line="1" column="32" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -935,7 +1666,7 @@
     <entry file="file://$PROJECT_DIR$/routes/weixin.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="65" column="8" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
           <folding>
             <element signature="e#0#41#0" expanded="false" />
           </folding>
@@ -950,34 +1681,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/index.css">
+    <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="101" column="1" selection-start-line="101" selection-start-column="1" selection-end-line="101" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/appointment/controller/appoint.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/chat/contact.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37802908">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.6241135">
+          <caret line="74" column="25" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="25" />
           <folding />
         </state>
       </provider>

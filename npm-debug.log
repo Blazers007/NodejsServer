@@ -1,32 +1,87 @@
 0 info it worked if it ends with ok
-1 verbose cli [ 'node', '/usr/local/bin/npm', 'start' ]
-2 info using npm@2.10.1
-3 info using node@v0.12.4
-4 verbose stack Error: Failed to parse json
-4 verbose stack Trailing comma in object at 16:1
-4 verbose stack }
-4 verbose stack ^
-4 verbose stack     at parseError (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:379:11)
-4 verbose stack     at parseJson (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:68:23)
-4 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:48:5
-4 verbose stack     at evalmachine.<anonymous>:334:14
-4 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:102:5
-4 verbose stack     at FSReqWrap.oncomplete (evalmachine.<anonymous>:95:15)
-5 verbose cwd /Users/Blazers/WebStorm/NodejsServer
-6 error Darwin 14.3.0
-7 error argv "node" "/usr/local/bin/npm" "start"
-8 error node v0.12.4
-9 error npm  v2.10.1
-10 error file /Users/Blazers/WebStorm/NodejsServer/package.json
-11 error code EJSONPARSE
-12 error Failed to parse json
-12 error Trailing comma in object at 16:1
-12 error }
-12 error ^
-13 error File: /Users/Blazers/WebStorm/NodejsServer/package.json
-14 error Failed to parse package.json data.
-14 error package.json must be actual JSON, not just JavaScript.
-14 error
-14 error This is not a bug in npm.
-14 error Tell the package author to fix their package.json file. JSON.parse
-15 verbose exit [ 1, true ]
+1 verbose cli [ 'D:\\Program Files (x86)\\NodeJs\\\\node.exe',
+1 verbose cli   'D:\\Program Files (x86)\\NodeJs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'wechat-exterprise' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.36
+4 verbose node symlink D:\Program Files (x86)\NodeJs\\node.exe
+5 warn package.json crypto@0.0.3 crypto is also the name of a node core module.
+6 verbose readDependencies using package.json deps
+7 verbose cache add [ 'wechat-exterprise', null ]
+8 verbose cache add name=undefined spec="wechat-exterprise" args=["wechat-exterprise",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'wechat-exterprise',
+9 verbose parsed url   path: 'wechat-exterprise',
+9 verbose parsed url   href: 'wechat-exterprise' }
+10 silly lockFile ad410bcb-wechat-exterprise wechat-exterprise
+11 verbose lock wechat-exterprise C:\Users\liang\AppData\Roaming\npm-cache\ad410bcb-wechat-exterprise.lock
+12 silly lockFile ad410bcb-wechat-exterprise wechat-exterprise
+13 silly lockFile ad410bcb-wechat-exterprise wechat-exterprise
+14 verbose addNamed [ 'wechat-exterprise', '' ]
+15 verbose addNamed [ null, '*' ]
+16 silly lockFile 5763002f-wechat-exterprise wechat-exterprise@
+17 verbose lock wechat-exterprise@ C:\Users\liang\AppData\Roaming\npm-cache\5763002f-wechat-exterprise.lock
+18 silly addNameRange { name: 'wechat-exterprise', range: '*', hasData: false }
+19 verbose request where is /wechat-exterprise
+20 verbose request registry https://registry.npm.taobao.org/
+21 verbose request id b0d616949079276f
+22 verbose url raw /wechat-exterprise
+23 verbose url resolving [ 'https://registry.npm.taobao.org/', './wechat-exterprise' ]
+24 verbose url resolved https://registry.npm.taobao.org/wechat-exterprise
+25 verbose request where is https://registry.npm.taobao.org/wechat-exterprise
+26 info trying registry request attempt 1 at 13:41:41
+27 http GET https://registry.npm.taobao.org/wechat-exterprise
+28 http 404 https://registry.npm.taobao.org/wechat-exterprise
+29 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+29 verbose headers   'content-type': 'application/json',
+29 verbose headers   'cache-control': 'max-age=0',
+29 verbose headers   'content-length': '51',
+29 verbose headers   'accept-ranges': 'bytes',
+29 verbose headers   date: 'Tue, 16 Jun 2015 05:41:56 GMT',
+29 verbose headers   via: '1.1 varnish',
+29 verbose headers   age: '0',
+29 verbose headers   connection: 'keep-alive',
+29 verbose headers   'x-served-by': 'cache-ams4146-AMS',
+29 verbose headers   'x-cache': 'MISS',
+29 verbose headers   'x-cache-hits': '0',
+29 verbose headers   'x-timer': 'S1434433316.438085,VS0,VE97' }
+30 silly registry.get cb [ 404,
+30 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+30 silly registry.get     'content-type': 'application/json',
+30 silly registry.get     'cache-control': 'max-age=0',
+30 silly registry.get     'content-length': '51',
+30 silly registry.get     'accept-ranges': 'bytes',
+30 silly registry.get     date: 'Tue, 16 Jun 2015 05:41:56 GMT',
+30 silly registry.get     via: '1.1 varnish',
+30 silly registry.get     age: '0',
+30 silly registry.get     connection: 'keep-alive',
+30 silly registry.get     'x-served-by': 'cache-ams4146-AMS',
+30 silly registry.get     'x-cache': 'MISS',
+30 silly registry.get     'x-cache-hits': '0',
+30 silly registry.get     'x-timer': 'S1434433316.438085,VS0,VE97' } ]
+31 silly lockFile 5763002f-wechat-exterprise wechat-exterprise@
+32 silly lockFile 5763002f-wechat-exterprise wechat-exterprise@
+33 error 404 404 Not Found: wechat-exterprise
+33 error 404
+33 error 404 'wechat-exterprise' is not in the npm registry.
+33 error 404 You should bug the author to publish it
+33 error 404 It was specified as a dependency of 'NodejsServer'
+33 error 404
+33 error 404 Note that you can also install from a
+33 error 404 tarball, folder, or http url, or git url.
+34 error System Windows_NT 6.2.9200
+35 error command "D:\\Program Files (x86)\\NodeJs\\\\node.exe" "D:\\Program Files (x86)\\NodeJs\\node_modules\\npm\\bin\\npm-cli.js" "install" "wechat-exterprise"
+36 error cwd E:\NodejsServer
+37 error node -v v0.10.36
+38 error npm -v 1.4.28
+39 error code E404
+40 verbose exit [ 1, true ]

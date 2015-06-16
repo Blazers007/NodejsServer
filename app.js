@@ -12,7 +12,10 @@ var connect = require('connect');
 /* 各部分的路由 */
 var routes = require('./routes/index');
 var route_weixin = require('./routes/weixin');
-
+var route_doctor = require('./routes/doctor');
+/* 微信企业号管理初始化 */
+var wechat = require('wechat-enterprise');
+var WXBizMsgCrypt = require('wechat-crypto');
 /* 初始化操作 */
 var os = require('os');
 console.log("Platform: " + os.platform() + "  Version: " + os.release() + " Type: " + os.type());
@@ -23,6 +26,12 @@ fs.readdir("./", function(err, files){
   if (err) throw  err;
   console.log('Root directory: ' + files);
 });
+
+var wechatConfig = {
+    token: 'ygQLVvpN',
+    encodingAESKey: 'quTFIs52frJCpHdAZx5Yq3jxiKMfurAwxWMIxlK9p8Q',
+    corpId: 'wxb1821a517a8eadf3'
+};
 
 /* 获取路径函数 */
 function relative(path) {
@@ -62,6 +71,36 @@ app.engine('hbs', hbs.express4({
     defaultLayout: relative('views/layout/default.hbs')
 }));
 
+/* 设置微信企业号的操作 */
+app.use(connect.query());
+
+app.get('/wxservice', function(req, res){
+    var msg_signature = req.query.msg_signature;
+    var timestamp = req.query.timestamp;
+    var nonce = req.query.nonce;
+    var echostr = req.query.echostr;
+    var cryptor = new WXBizMsgCrypt(wechatConfig.token, wechatConfig.encodingAESKey, wechatConfig.corpId);
+    var s = cryptor.decrypt(echostr);
+    res.send(s.message);
+});
+
+app.use('/corp', wechat(config, function (req, res, next) {
+    res.writeHead(200);
+    res.end('hello node api');
+}));
+
+app.use('/corp', wechat(config)
+    .text(function (message, req, res, next) {
+        res.reply('Hello');
+    })
+    .location(function (message, req, res, next) {
+        // TODO
+    })
+    .event(function (message, req, res, next) {
+        // TODO
+    })
+    .middleware());
+
 /* 设置Session */
 app.use(session({
     secret: 'blazers',
@@ -91,21 +130,10 @@ hbs.registerAsyncHelper('readFile', function(filename, cb) {
     });
 });
 
-// 设置Session
-//app.use(session({
-//    store: new RedisStore({
-//        host: "127.0.0.1",
-//        port: 6379,
-//        db: "test_session"
-//    }),
-//    resave:false,
-//    saveUninitialized:false,
-//    secret: 'keyboard cat'
-//}));
-
 /* 设置路由地址 设置了一个中间件 */
 app.use('/', routes);
 app.use('/weixin', route_weixin);
+app.use('/doctor', route_doctor);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
